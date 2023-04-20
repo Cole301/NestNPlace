@@ -201,7 +201,7 @@ footer img {
     margin-bottom: 45px;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:400px) {
     .image-centered img {
        width: 100% !important;
     }
@@ -210,6 +210,9 @@ footer img {
         object-fit: contain !important;
         height: 200px !important;
         min-height: auto !important;
+    }
+    .container {
+        width: 70% !important;
     }
 }
 
@@ -244,7 +247,7 @@ input[type=submit] {
 }
   
 .container {
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
     background-color: pink;
     color: indigo;
