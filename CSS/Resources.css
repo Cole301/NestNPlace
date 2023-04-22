@@ -156,16 +156,10 @@ footer img {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:900px) {
     .mainImage img {
        width: 100% !important;
         height: 28%;
-    }
-     .wp-block-cover, .wp-block-cover-image{
-    object-fit: contain !important;
-    height: 200px !important;
-    min-height: auto !important;
-    
     }
     .mainInner iframe {
         width: 90% !important
@@ -183,21 +177,22 @@ h1 {
     flex-wrap: wrap;
     background-color: pink;
     border-radius: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
 }
 .flexbox-item {
     height: 200px;
-    width: 450px;
-    margin: 10px;
-    border: 4px dotted orchid;
+    width: 350px;
+    margin: 15px;
+    border: 4px dotted pink;
     background-color: indigo; opacity: 0.7;
     border-radius: 20px;
     color: white;
 }
 .flexbox-item h3 {
-    letter-spacing: 5px;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 8px white; 
 }
 li {
     padding: 7px;
